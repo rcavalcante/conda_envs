@@ -13,3 +13,8 @@ conda create --yes --name bismark
 conda install --yes --name bismark --channel bioconda samtools=1.2
 conda install --yes --name bismark --channel bioconda bismark=0.19.0
 conda env export --name bismark --file bismark.yml
+
+# multiqc
+conda create --yes --name multiqc
+conda install --yes --name multiqc --channel bioconda multiqc=1.4
+conda env export --name multiqc --file multiqc.yml
