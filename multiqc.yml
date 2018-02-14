@@ -51,7 +51,7 @@ dependencies:
 - urllib3=1.22=py35_0
 - wheel=0.30.0=py35_2
 - xz=5.2.3=0
-- yaml=0.1.7=0
+- yaml=0.1.7
 - zlib=1.2.11=0
 - intel-openmp=2018.0.0=h8158457_8
 - libgfortran=3.0.1=h93005f0_2
