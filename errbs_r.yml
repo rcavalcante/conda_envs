@@ -232,4 +232,3 @@ dependencies:
   - jupyter-core==4.4.0
   - prompt-toolkit==1.0.15
   - virtualenv==15.1.0
-prefix: /home/rcavalca/miniconda3/envs/errbs_r
