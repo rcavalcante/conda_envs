@@ -18,3 +18,9 @@ conda env export --name bismark --file bismark.yml
 conda create --yes --name multiqc
 conda install --yes --name multiqc --channel bioconda multiqc=1.4
 conda env export --name multiqc --file multiqc.yml
+
+# R
+conda create --yes --name errbs_r
+conda install --yes --name errbs_r --channel anaconda gxx_linux-64 gfortran_linux-64
+conda install --yes --name errbs_r --channel r r-essentials=1.7.0 r-packrat r-rmariadb
+conda env export --name errbs_r --file errbs_r.yml
