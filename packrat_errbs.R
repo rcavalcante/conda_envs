@@ -5,4 +5,4 @@ install.packages(c('devtools', 'optparse', 'gplots', 'RColorBrewer'), repos='htt
 source("https://bioconductor.org/biocLite.R")
 biocLite(c('annotatr', 'rtracklayer'))
 
-devtools::install_github('sartorlab/methylSig@v0.5.0')
+devtools::install_github('sartorlab/methylSig@v0.5.0-beta')
