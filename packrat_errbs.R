@@ -1,4 +1,4 @@
-packrat_dir = '/nfs/med-bfx-activeprojects/EpiCore/bin/packrat_errbs'
+packrat_dir = '/nfs/med-bfx-activeprojects/EpiCore/common/packrat_errbs'
 
 if(!dir.exists(packrat_dir)) {
     dir.create(packrat_dir, mode = '775')
