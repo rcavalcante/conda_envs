@@ -6,6 +6,7 @@ dependencies:
 - bioconductor-ballgown=2.10.0
 - r-tidyverse
 - r-ggfortify
+- r-ggrepel
 - r-yaml
 - r-optparse
 - libiconv=1.15
