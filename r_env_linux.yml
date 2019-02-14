@@ -1,12 +1,12 @@
 channels:
-- anaconda
-- defaults
 - r
 - bioconda
 - conda-forge
+- defaults
 dependencies:
 - gxx_linux-64
 - gfortran_linux-64
 - r-essentials=3.4.3=r343_0
 - r-packrat
 - r-rmariadb
+- openssl=1.0.2o=h20670df_0
