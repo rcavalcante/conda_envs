@@ -4,9 +4,11 @@ channels:
 - defaults
 dependencies:
 - bioconductor-ballgown=2.10.0
+- libiconv=1.15
 - r-tidyverse
+- r-ggally
 - r-ggfortify
 - r-ggrepel
-- r-yaml
 - r-optparse
-- libiconv=1.15
+- r-plotly
+- r-yaml
