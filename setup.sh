@@ -10,6 +10,8 @@ conda config --add channels r
 
 cd ~/repos/conda_envs
 
+conda update -n base -c defaults conda
+
 conda env create -f snakemake.yaml -n snakemake
 conda env create -f watermelon.yaml -n watermelon
 conda env create -f ballgown.yaml -n ballgown
