@@ -1,4 +1,4 @@
 channels:
 - defaults
 dependencies:
-- snakemake=5.1.2
+- snakemake=5.4.2

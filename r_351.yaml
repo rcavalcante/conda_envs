@@ -1,0 +1,12 @@
+channels:
+- r
+- bioconda
+- conda-forge
+- defaults
+dependencies:
+- gxx_linux-64
+- gfortran_linux-64
+- r-essentials=3.5.1=r351_0
+- r-packrat
+- r-rmariadb
+- r-optparse
