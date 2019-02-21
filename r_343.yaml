@@ -10,4 +10,3 @@ dependencies:
 - r-packrat
 - r-rmariadb
 - openssl=1.0.2o=h20670df_0
-- r-optparse

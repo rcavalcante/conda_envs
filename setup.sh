@@ -14,9 +14,9 @@ conda update -n base -c defaults conda
 
 conda env create -f snakemake.yaml -n snakemake
 conda env create -f watermelon.yaml -n watermelon
-conda env create -f ballgown.yaml -n ballgown
 conda env create -f hisat_stringtie.yaml -n hisat_stringtie
-conda env create -f bismark.yml -n bismark
-conda env create -f multiqc.yml -n multiqc
+conda env create -f bismark.yaml -n bismark
+conda env create -f multiqc.yaml -n multiqc
+conda env create -f ballgown.yaml -n ballgown
 conda env create -f r_343.yaml -n r_343
 conda env create -f r_351.yaml -n r_351
