@@ -1,6 +1,7 @@
 channels:
 - bioconda
 - conda-forge
+- r
 - defaults
 dependencies:
 - bioconductor-ballgown=2.10.0
